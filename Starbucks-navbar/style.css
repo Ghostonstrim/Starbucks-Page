@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* CSS NAVBAR*/
+
+img.align-self {
+    align-self: center;
+  }
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-container img{
+    margin: 20px 20px 20px 150px;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 150px;
+    background-color: #332525;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    gap: 700px;   
+}
+
+.navbar-container ul{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar-container ul li a:hover{
+    border-bottom: 5px solid #204B25;
+    color: #204B25;
+}
+
+
+.navbar-container img{
+    width: 100px;
+} 
+
+/* CSS BANNER */
+
+.banner{
+    width: 100%;
+    height: 900px;
+    background-color: #204B25;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner img{
+    width: 600px;
+    align-self: center;
+}
+
+.banner-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+
+
+.banner-button{
+    display: flex;
+    width: 170px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #332525;
+    border-radius: 20px;
+}
+
+.banner-button:hover{
+    background-color: #0C0909;
+}
+
+/*Mid banner*/
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+.mid-banner{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card img{
+    width: 300px;
+}
+
+
+.card{
+    background-color: #6A9E62;
+    width: 350px;
+    border-radius: 20px;
+    height: 450px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+.card .card-content{
+    background-color: #204B25;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.card .card-content h1{
+    margin: 40px;
+    position: relative;
+    top: 20px;
+}
+
